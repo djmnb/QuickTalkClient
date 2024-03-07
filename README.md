@@ -12,7 +12,7 @@
 
 ### 修改服务器ip和端口
 
-在这里指定QuickTalkServer服务器所在的ip和端口
+在这里指定QuickTalkServer服务器所在的ip和端口(在Test1.h里面)
 
 ![image-20240307153913581](img/READMEassets/image-20240307153913581.png)
 
