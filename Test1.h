@@ -26,6 +26,7 @@
 
 //static const char* ipaddr = "123.57.212.102";
 static const char* ipaddr = "127.0.0.1";
+static int port = 10007;
 
 using namespace std;
 

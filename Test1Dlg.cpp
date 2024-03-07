@@ -163,7 +163,7 @@ int CTest1Dlg::commit()
 	//addr.sin_addr.S_un.S_addr = inet_addr("127.0.0.1");
 	inet_pton(AF_INET, ipaddr, &addr.sin_addr.S_un.S_addr);
 	addr.sin_family = AF_INET;
-	addr.sin_port = htons(10007);
+	addr.sin_port = htons(port);
 
 	int flag = connect(fd, (sockaddr*)&addr, sizeof(addr));
 
